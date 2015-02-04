@@ -1,12 +1,3 @@
-vecty = [0 5 10 15 20];
-vectw = [20.00 20.05 20.25 20.51 21.18];
-vectf = [];
+function f = width(y)
 
-for i=0:5:20
-  vectf = [vectf 62.5*(20-i)*(vectw((i/5)+1))];
-end
-
-result = trapz(vecty,vectf);
-disp(result);
-
-
+f = 40-20*e.^(0.01*y.^(2));
