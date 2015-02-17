@@ -1,6 +1,6 @@
 %DEL 3%
 
-vectd = 10:0.5:100; %vattenniv?
+vectd = 10:0.5:100;
 vectr = [];
 vecth = [];
 vectf = [];
