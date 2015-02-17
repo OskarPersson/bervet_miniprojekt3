@@ -9,3 +9,5 @@ for i = vectd
 end
 
 plot(vectd,vectr);
+xlabel('Vattennnivå');
+ylabel('Tryck');
