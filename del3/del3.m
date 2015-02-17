@@ -43,18 +43,15 @@ end
 
 subplot(3,1,1);
 plot(vectd,vectr);
-title('title1');
-xlabel('x1');
-ylabel('y1');
+xlabel('Vattennnivå');
+ylabel('Tryck');
 
 subplot(3,1,2);
 plot(vectd, vecth);
-title('title2');
-xlabel('x2');
-ylabel('y2');
+xlabel('Vattennnivå');
+ylabel('h');
 
 subplot(3,1,3);
 plot(vectd, vectf);
-title('title3');
-xlabel('x3');
-ylabel('y3');
+xlabel('Vattennnivå');
+ylabel('Uppskattat fel');
