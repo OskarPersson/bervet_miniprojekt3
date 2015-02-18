@@ -15,7 +15,7 @@ for d = vectd
     result1 = 0;
     result2 = 0;
 
-    while(fel >= 10e-4)
+    while(fel >= 10e-5)
         h = h/2;
         hh = h*2;
 
